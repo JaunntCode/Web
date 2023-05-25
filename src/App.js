@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './components/header';
 import Hero from './components/Hero';
+import React from 'react';
 // import Section2 from './components/Section2';
 import Section2 from './components/Section2';
 import GroupPlan from './components/GroupPlan';
