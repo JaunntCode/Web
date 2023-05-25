@@ -1,0 +1,51 @@
+.hamburger {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .menu {
+      display: none;
+    }
+    .open {
+      display: block;
+    }
+  }
+  
+  .menu {
+    display: block;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+    }
+    .menu.open {
+      display: block;
+    }
+    li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+  }
+  

@@ -1,0 +1,97 @@
+.aboutus{
+    background-color: #99B3BD;
+    color: #012248; 
+}
+.abt_us{
+    padding-top: 2%;
+    margin-left: 9%;
+}
+.about_content{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.icons{
+    margin-top: 8%;
+    display: inline-block;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: 600;
+    /* border: 1px solid red; */
+}
+.para{
+    font-size: 22px;
+}
+.aboutus_head{
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.about_desc{
+    width: 30%;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+
+.icon{
+   
+    color: #012248;
+}
+.about_logo{
+    margin-left: 40%;
+}
+.aboutus_logo{
+    height: 120%;
+    width: 120%;
+}
+@media  (max-width:799px){
+    .head{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 20px;
+    }
+    .header_connect{
+        font-size: 25px;        
+    }
+    .icons{
+        /* border: 1px solid black; */
+       display: flex;
+       font-size: 20px;
+    }
+    .about_logo{
+        margin-left: 40%;
+    }
+    .aboutus_logo{
+        height: 90%;
+        width: 90%;
+    }
+}
+@media(max-width:477px){
+    .head{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .icons{
+        /* border: 1px solid black; */
+       display: flex;
+       font-size: 20px;
+    }
+    .icon{
+        /* border: 1px solid black; */
+        width: 10px;
+        height: 10px;
+    }
+    .header_connect{
+        font-size: 15px;        
+    }
+    .about_logo{
+        margin-left: 40%;
+    }
+    .aboutus_logo{
+        height: 70%;
+        width: 70%;
+    }
+}

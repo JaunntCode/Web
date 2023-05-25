@@ -1,0 +1,147 @@
+body{
+    background-color:  #99B3BD;
+}
+.top{
+    display: inline-flex;
+    margin: auto;
+    margin-left: 38%;
+    margin-top: 3%;
+    padding:0px;
+}
+.headertop{
+    margin-top:15%;
+    color: #012248;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.bottom{
+    margin-top: -5%;
+    margin-left: 5%;
+    color: #012248;
+    text-align: center;
+    font-size: 30px;
+}
+.images{
+    text-align: center;
+    padding-bottom: 5%;
+    /* position: fixed; */
+}
+.img{
+    margin-right: 2%;
+    border: 4px solid black;
+    border-radius:10px;
+}
+
+@media (max-width:799px){
+    .top{
+        display:inline-flex;
+        text-align: center;
+        margin: auto;
+        margin-left:20%;
+        margin-top: 8%;
+        padding:0px;
+    }
+    .headertop{
+        margin-top:10%;
+        font-size: 45px;
+        
+    }
+    .logo{
+        /* border: 1px solid red; */
+        width: 45%;
+    }
+    .bottom{
+        margin-top: -7%;
+        margin-left: 5%;
+        color: #012248;
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 5%;
+        /* border: 1px solid red; */
+    }
+    .images{
+        text-align: center;
+        padding-bottom: 5%;
+        display: flex;
+        width: 40%;
+        margin-left: 8%;
+        /* border: 1px solid red; */
+    }
+    .img1{
+        height:170px;
+        margin-top: 20%;
+    }
+    .img2{
+        height:230px;
+        margin-top: 10%;
+    }
+    .img3{
+        height:290px;
+    }
+    .img4{
+        height:230px;
+        margin-top: 10%;
+    }
+    .img5{
+        height:170px;
+        margin-top: 20%;
+    }
+}
+@media(max-width:477px){
+    .top{
+        display:inline-flex;
+        text-align: center;
+        margin: auto;
+        margin-left:14%;
+        margin-top: 3%;
+        padding:0px;
+       
+    }
+    .headertop{
+        margin-top:15%;
+        color: #012248;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .logo{
+        /* border: 1px solid red; */
+        width: 50%;
+    }
+    .bottom{
+        margin-top: -12%;
+        margin-left: 3%;
+        color: #012248;
+        text-align: center;
+        font-size: 8px;
+        padding-bottom: 2%;
+    }
+    .images{
+        text-align: center;
+        padding-bottom: 5%;
+        display: flex;
+        /* margin: auto; */
+        /* height:300px; */
+        width: 40%;
+        margin-left: 8%;
+    }
+    .img1{
+        height:100px;
+        margin-top: 20%;
+    }
+    .img2{
+        height:150px;
+        margin-top: 10%;
+    }
+    .img3{
+        height:200px;
+    }
+    .img4{
+        height:150px;
+        margin-top: 10%;
+    }
+    .img5{
+        height:100px;
+        margin-top: 20%;
+    }
+}

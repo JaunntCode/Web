@@ -1,0 +1,140 @@
+.discover{
+    background-color: #D8E9EB;
+}
+.sectiontwo{
+    display: flex;
+    margin-left: 10%;
+    
+}
+.leftdiscover{
+    display: inline-block;
+    /* margin-right: 7%; */
+    margin-top: 5%;
+}
+.rightdiscover{
+    margin-top: 6%;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.rightone,.righttwo,.rightthree,.rightfour{
+    color: #012248;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.rightone,.rightthree{
+    background-color: #FF8D7D;
+}
+.righttwo,.rightfour{
+    background-color: #FFB980;
+}
+.rightone{
+    margin-bottom: 10%;
+    margin-left: -10%;
+}
+.righttwo{
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.rightthree{
+    margin-bottom: 10%;
+    margin-left: 20%;
+}
+.rightfour{
+    margin-left: -2%;
+}
+img{
+    border: none;
+}
+.d-header{
+    color: #012248;
+    font-size: 50px;
+}
+.headerfour{
+    padding-top: 7px;
+    text-align: center;
+    font-size: 23px;
+}
+@media (max-width:799px){
+    .sectiontwo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sheader{
+        margin-left: -5%;
+        font-size: 40px;
+        color: #012248;   
+    }
+    .simg{
+        /* margin-left: -5%; */
+        width: 55%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .rightdiscover{
+        margin-top: 6%;
+        width: 80%;  
+    }
+    .headerfour{
+        /* border: 1px solid red; */
+        text-align: center;
+        font-weight: 550;
+        padding-top: 10px;
+        font-size: 20px;
+       }
+}
+
+@media (max-width:477px){
+    .sectiontwo{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .sheader{
+        font-size: 20px;
+        color: #012248;   
+    }
+    .simg{
+        width: 70%;
+        text-align: center;
+        /* margin-left: 10%; */
+    }
+    .rightdiscover{
+        margin-top: 6%;
+        width: 100%;  
+    }
+    .rightone,.righttwo,.rightthree,.rightfour{
+        height: 43px;
+        font-size: 10px;
+        width: 80%;
+    }
+   .rightone{
+    margin-left: 1px;
+   }
+   .righttwo{
+    margin-left: 20px;
+   }
+   .rightthree{
+    margin-left: 30px;
+   }
+   .rightfour{
+    margin-left: 1px;
+    margin-bottom: 5%;
+   }
+   .headerfour{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 12px;
+   }
+    
+}
+
+
+
+
+
